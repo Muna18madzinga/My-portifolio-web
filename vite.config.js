@@ -4,6 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/three-d-portfolio-2025/',
+  base: process.env.NODE_ENV === 'production' ? '/three-d-portfolio-2025/' : '/',
   plugins: [react(), tailwindcss()],
 });

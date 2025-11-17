@@ -29,10 +29,10 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 1, suffix: "+", label: "Years of Experience" },
+  { value: 12, suffix: "+", label: "Satisfied Clients" },
+  { value: 15, suffix: "+", label: "Completed Projects" },
+  { value: 85, suffix: "%", label: "Client Retention Rate" },
 ];
 
 const logoIconsList = [
@@ -147,19 +147,22 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Theo brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "Exceptional work in developing an innovative AI-powered loyalty platform. The team demonstrated strong technical skills and creative problem-solving throughout the hackathon.",
     imgPath: "/images/Screenshot.png",
     logoPath: "/images/Screenshot.png",
-    title: "Frontend Developer",
-    date: "January 2024 - October 2024",
+    title: "Loyalty Reimagined AI Hackathon - NMB Bank x Xplug",
+    date: "September 2025",
     responsibilities: [
-      "Developed and maintained user-facing features for the Northgate website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Developed a prototype loyalty system that dynamically adapts to customer behaviour, location, and engagement history.",
+      "Integrated AI features including churn prediction, reinforcement learning, and voice-enabled chatbot navigation.",
+      "Leveraged location intelligence to personalize rewards and drive customer retention across industries.",
+      "Worked in a cross-functional team to ideate, design, and pitch the solution to judges and industry mentors.",
+      "Gained hands-on experience in building scalable, customer-centric platforms using modern AI tools and frameworks.",
+      "Explored real-world applications of AI in marketing, customer engagement, and behavioural analytics.",
     ],
   },
   {
-    review: "Theo’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "Theo's contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
     imgPath: "/images/Screenshot.png",
     logoPath: "/images/Screenshot.png",
     title: "Full Stack Developer",
@@ -171,7 +174,7 @@ const expCards = [
     ],
   },
   {
-    review: "Theo’s work on Northgate’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "Theo's work on Northgate's mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
     imgPath: "/images/Screenshot.png",
     logoPath: "/images/Screenshot.png",
     title: "React Native Developer",
@@ -199,8 +202,35 @@ const expLogos = [
   },
 ];
 
+const projects = [
+  {
+    id: 1,
+    title: "On-Demand Rides Made Simple with a Powerful, User-Friendly App called Ryde",
+    description: "An app built with React Native, Expo, & TailwindCSS for a fast, user-friendly experience.",
+    imgPath: "/images/project1.png",
+    bgColor: "",
+    isFeatured: true,
+  },
+  {
+    id: 2,
+    title: "The Library Management Platform",
+    description: "",
+    imgPath: "/images/project2.png",
+    bgColor: "#FFEFDB",
+    isFeatured: false,
+  },
+  {
+    id: 3,
+    title: "YC Directory - A Startup Showcase App",
+    description: "",
+    imgPath: "/images/project3.png",
+    bgColor: "#FFE7EB",
+    isFeatured: false,
+  },
+];
+
 const testimonials = [
-  
+
 ];
 
 const socialImgs = [
@@ -233,6 +263,7 @@ export {
   counterItems,
   expCards,
   expLogos,
+  projects,
   testimonials,
   socialImgs,
   techStackIcons,
