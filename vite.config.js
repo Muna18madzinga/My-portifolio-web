@@ -6,4 +6,16 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   base: process.env.VERCEL ? '/' : (process.env.NODE_ENV === 'production' ? '/three-d-portfolio-2025/' : '/'),
   plugins: [react(), tailwindcss()],
+  build: {
+    chunkSizeWarningLimit: 1000,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'three': ['three'],
+          'react-vendor': ['react', 'react-dom'],
+          'three-vendor': ['@react-three/fiber', '@react-three/drei', '@react-three/postprocessing']
+        }
+      }
+    }
+  }
 });
