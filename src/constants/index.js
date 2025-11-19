@@ -166,7 +166,7 @@ const expCards = [
     imgPath: "/images/Screenshot.png",
     logoPath: "/images/Screenshot.png",
     title: "Full Stack & React Native Developer",
-    date: "June 2024 - Present",
+    date: "June 2024 - August 2024",
     responsibilities: [
       "Led the development of Northgate's web applications, focusing on scalability.",
       "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
