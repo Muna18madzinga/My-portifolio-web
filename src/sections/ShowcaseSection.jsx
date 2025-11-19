@@ -50,15 +50,14 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <img src="/images/project1.png" alt="Tenant Loyalty System Interface" />
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                Tenant Loyalty System - A Powerful, User-Friendly Platform
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
+                A loyalty platform built with React Native, Expo, & TailwindCSS for a fast,
                 user-friendly experience.
               </p>
             </div>
@@ -69,10 +68,10 @@ const AppShowcase = () => {
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
                   src="/images/project2.png"
-                  alt="Library Management Platform"
+                  alt="The Adaptive Security Suite"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>AI-Powered Adaptive Security Suite Built on UNSW-NB15</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>

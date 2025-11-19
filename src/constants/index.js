@@ -148,8 +148,8 @@ const techStackIcons = [
 const expCards = [
   {
     review: "Exceptional work in developing an innovative AI-powered loyalty platform. The team demonstrated strong technical skills and creative problem-solving throughout the hackathon.",
-    imgPath: "/images/Screenshot.png",
-    logoPath: "/images/Screenshot.png",
+    imgPath: "/images/nmb-logo.png",
+    logoPath: "/images/nmb-logo.png",
     title: "Loyalty Reimagined AI Hackathon - NMB Bank x Xplug",
     date: "September 2025",
     responsibilities: [
@@ -162,24 +162,15 @@ const expCards = [
     ],
   },
   {
-    review: "Theo's contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "Theo's contributions to Northgate's web and mobile applications have been outstanding. He approaches challenges with a problem-solving mindset and delivers solutions that enhance user experience.",
     imgPath: "/images/Screenshot.png",
     logoPath: "/images/Screenshot.png",
-    title: "Full Stack Developer",
-    date: "June 2024 - December 2024",
+    title: "Full Stack & React Native Developer",
+    date: "June 2024 - Present",
     responsibilities: [
       "Led the development of Northgate's web applications, focusing on scalability.",
       "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
       "Contributed to open-source projects that were used with the Northgate ecosystem.",
-    ],
-  },
-  {
-    review: "Theo's work on Northgate's mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/Screenshot.png",
-    logoPath: "/images/Screenshot.png",
-    title: "React Native Developer",
-    date: "December 2024 - Present",
-    responsibilities: [
       "Built cross-platform mobile apps using React Native, integrating with Northgate's backend services.",
       "Improved app performance and user experience through code optimization and testing.",
       "Coordinated with the product team to implement features based on feedback.",
@@ -205,15 +196,15 @@ const expLogos = [
 const projects = [
   {
     id: 1,
-    title: "On-Demand Rides Made Simple with a Powerful, User-Friendly App called Ryde",
-    description: "An app built with React Native, Expo, & TailwindCSS for a fast, user-friendly experience.",
+    title: "Tenant Loyalty System - A Powerful, User-Friendly Platform",
+    description: "A loyalty platform built with React Native, Expo, & TailwindCSS for a fast, user-friendly experience.",
     imgPath: "/images/project1.png",
     bgColor: "",
     isFeatured: true,
   },
   {
     id: 2,
-    title: "The Library Management Platform",
+    title: "AI-Powered Adaptive Security Suite Built on UNSW-NB15",
     description: "",
     imgPath: "/images/project2.png",
     bgColor: "#FFEFDB",
